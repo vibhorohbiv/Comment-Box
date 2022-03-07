@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+p {
+  margin: 10px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.chat-box {
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+  background: papayawhip;
+  border-radius: 15px;
+  border: 5px solid lightgray;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-8 {
+  width: 80%;
+  padding: 0px 15px;
+}
+
+.col-8 textarea,
+button {
+  width: 100%;
+}
+
+.col-8 button {
+  padding: 6px 10px;
+  font-size: 15px;
+  background: #5454ff;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-1 {
+  width: 10%;
+}
+.display-screen {
+  margin: 15px;
+  height: 55vh;
+  background: white;
+  border: 6px solid #2a6f49;
+  text-align: left;
+  padding: 0px 15px;
+  overflow-y: auto;
+  padding-top: 10px;
+}
+
+.chat-inputs {
+  margin: 15px;
+}
+
+.flex {
+  display: flex;
+}
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0px;
+}
+
+.message {
+  background: #d3ffe1b5;
+  margin: 0px;
+  border-radius: 8px;
+}
+
+.message .name {
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.message .reply {
+  text-align: center;
+  margin: 7px 0px;
+  color: green;
+}
+
+.reply-message {
+  background: #e9ffd4b5;
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+
+.replying-to {
+  padding: 5px 26px;
+  margin: 0px;
+  border-left: 2px solid green;
+  color: #7f1effeb;
+  font-weight: 600;
+  text-transform: CAPITALIZE;
+}
+
+.delete {
+  text-align: center;
+  margin: 7px 0px;
+  color: red;
+}

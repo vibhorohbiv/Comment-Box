@@ -18,6 +18,7 @@ function MessageBox(props) {
             <option value="john">John</option>
             <option value="cory">Cory</option>
             <option value="smith">Smith</option>
+            <option value="joey">Joey</option>
           </select>
         </div>
         <div className="col-8">

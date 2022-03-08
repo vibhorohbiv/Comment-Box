@@ -58,7 +58,9 @@ function MessageDisplay({ message, replyCallBack, deleteReply }) {
   });
 
   if (!message.length) {
-    data = <h4 style={{ textAlign: "center" }}>Sorry No comments. Yet.</h4>;
+    data = (
+      <h1 className="text-3xl font-bold underline">Sorry. No comments yet!</h1>
+    );
   }
 
   return <div className="display-screen">{data}</div>;
